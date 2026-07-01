@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This table file is used to overwrite the game's hardcoded ability effect table.
+
+Refer to: https://ffhacktics.com/wiki/Effects and https://ffhacktics.com/smf/index.php?topic=4830.0
+This table is only used to determine which effect is used when an ability is executed.
+
+You can use this file as a base to edit Ability Effects data in your mod.
+Simply copy this file to your mod's folder under FFTIVC/tables/<enhanced/classic/combined>/AbilityEffectData.xml.
+
+IMPORTANT: You are free to remove everything and **SHOULD ONLY LEAVE ELEMENTS THAT YOU HAVE EDITED** to avoid conflicts between mods.
+Only properties that are actually included in this file will be tracked as edited. Properties not edited will inherit their
+value from the original table or, from other mods making changes depending on mod order.
+
+IMPORTANT 2: The Id property must NOT be removed for nodes that you're leaving here!
+
+IMPORTANT 3: Id cannot be more than 453 (hardcoded table size is 454).
+
+-->
+
+<AbilityEffectNumberFilterData>
+  <Version>1</Version>
+  <Entries>
+    <AbilityEffectNumberFilter>
+      <Id>108</Id> <!-- Steal Gil / Sacred Winds -->
+      <EffectId>231</EffectId>
+    </AbilityEffectNumberFilter>
+    <AbilityEffectNumberFilter>
+      <Id>115</Id> <!-- Steal EXP / Astral Winds -->
+      <EffectId>232</EffectId>
+    </AbilityEffectNumberFilter>
+    <AbilityEffectNumberFilter>
+      <Id>123</Id> <!-- Defraud / Luna -->
+      <EffectId>217</EffectId>
+    </AbilityEffectNumberFilter>
+    <AbilityEffectNumberFilter>
+      <Id>204</Id> <!-- Bio / Trinity -->
+      <EffectId>226</EffectId>
+    </AbilityEffectNumberFilter>
+  </Entries>
+</AbilityEffectNumberFilterData>

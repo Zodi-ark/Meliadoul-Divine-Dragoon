@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+This table file is used to overwrite the game's hardcoded job command table.
+
+Refer to: https://ffhacktics.com/wiki/Skillsets
+This table links to nex table 'JobCommand'. Some properties edited here may be overriden by the nex table.
+
+You can use this file as a base to edit Item data in your mod.
+Simply copy this file to your mod's folder under FFTIVC/tables/<enhanced/classic/combined>/JobCommandData.xml.
+
+IMPORTANT: You are free to remove everything and **SHOULD ONLY LEAVE ELEMENTS THAT YOU HAVE EDITED** to avoid conflicts between mods.
+Only properties that are actually included in this file will be tracked as edited. Properties not edited will inherit their
+value from the original table or, from other mods making changes depending on mod order.
+
+IMPORTANT 2: The Id property must NOT be removed for nodes that you're leaving here!
+
+IMPORTANT 3: Id cannot be more than 175 (hardcoded table size is 176).
+
+IMPORTANT 4: You do not need to worry about setting ExtendAbilityIdFlagBits or ExtendReactionSupportMovementIdFlagBits.
+The loader will fill these according to ids. You're free to use ids 0-512 directly.
+
+For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader/blob/master/fftivc.utility.modloader.Interfaces/Tables/Structures/JOB_COMMAND_DATA.cs
+-->
+
+<JobCommandTable>
+  <Version>1</Version>
+  <Entries>
+    <JobCommand>
+      <Id>14</Id> <!-- Steal / 盗む / Vol / Stehlen -->
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>0</AbilityId1>
+      <AbilityId2>109</AbilityId2>
+      <AbilityId3>110</AbilityId3>
+      <AbilityId4>111</AbilityId4>
+      <AbilityId5>112</AbilityId5>
+      <AbilityId6>113</AbilityId6>
+      <AbilityId7>114</AbilityId7>
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>426</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>439</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>450</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>471</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>487</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>490</ReactionSupportMovementId6>
+    </JobCommand>
+    <JobCommand>
+      <Id>15</Id> <!-- Speechcraft / 話術 / Médiation / Rhetorik -->
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>116</AbilityId1>
+      <AbilityId2>117</AbilityId2>
+      <AbilityId3>118</AbilityId3>
+      <AbilityId4>119</AbilityId4>
+      <AbilityId5>120</AbilityId5>
+      <AbilityId6>121</AbilityId6>
+      <AbilityId7>122</AbilityId7>
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>124</AbilityId9>
+      <AbilityId10>125</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>448</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>461</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>470</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>473</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>0</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
+    </JobCommand>
+    <JobCommand>
+      <Id>66</Id> <!-- Unyielding Blade / Templar Arts -->
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>204</AbilityId1>
+      <AbilityId2>123</AbilityId2>
+      <AbilityId3>108</AbilityId3>
+      <AbilityId4>115</AbilityId4>
+      <AbilityId5>229</AbilityId5>
+      <AbilityId6>0</AbilityId6>
+      <AbilityId7>0</AbilityId7>
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>447</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>0</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>463</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>0</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>478</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>489</ReactionSupportMovementId6>
+    </JobCommand>
+    <JobCommand>
+      <Id>67</Id> <!-- Unyielding Blade / Templar Arts -->
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>204</AbilityId1>
+      <AbilityId2>123</AbilityId2>
+      <AbilityId3>108</AbilityId3>
+      <AbilityId4>115</AbilityId4>
+      <AbilityId5>229</AbilityId5>
+      <AbilityId6>0</AbilityId6>
+      <AbilityId7>0</AbilityId7>
+      <AbilityId8>0</AbilityId8>
+      <AbilityId9>0</AbilityId9>
+      <AbilityId10>0</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>0</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>436</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>463</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>484</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>478</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>486</ReactionSupportMovementId6>
+    </JobCommand>
+    <JobCommand>
+      <Id>116</Id>
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>0</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>202</AbilityId1>
+      <AbilityId2>203</AbilityId2>
+      <AbilityId3>0</AbilityId3>
+      <AbilityId4>205</AbilityId4>
+      <AbilityId5>206</AbilityId5>
+      <AbilityId6>207</AbilityId6>
+      <AbilityId7>208</AbilityId7>
+      <AbilityId8>209</AbilityId8>
+      <AbilityId9>210</AbilityId9>
+      <AbilityId10>211</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>0</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>0</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>0</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>0</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>0</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
+    </JobCommand>
+    <JobCommand>
+      <Id>136</Id>
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>0</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>202</AbilityId1>
+      <AbilityId2>203</AbilityId2>
+      <AbilityId3>0</AbilityId3>
+      <AbilityId4>205</AbilityId4>
+      <AbilityId5>206</AbilityId5>
+      <AbilityId6>207</AbilityId6>
+      <AbilityId7>208</AbilityId7>
+      <AbilityId8>209</AbilityId8>
+      <AbilityId9>210</AbilityId9>
+      <AbilityId10>211</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>0</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>0</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>0</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>0</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>0</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
+    </JobCommand>
+    <JobCommand>
+      <Id>172</Id> <!-- Bio / バイオ / Magie toxique / Bio -->
+      <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
+      <ExtendReactionSupportMovementIdFlagBits>0</ExtendReactionSupportMovementIdFlagBits>
+      <AbilityId1>202</AbilityId1>
+      <AbilityId2>203</AbilityId2>
+      <AbilityId3>0</AbilityId3>
+      <AbilityId4>205</AbilityId4>
+      <AbilityId5>206</AbilityId5>
+      <AbilityId6>207</AbilityId6>
+      <AbilityId7>208</AbilityId7>
+      <AbilityId8>209</AbilityId8>
+      <AbilityId9>210</AbilityId9>
+      <AbilityId10>211</AbilityId10>
+      <AbilityId11>0</AbilityId11>
+      <AbilityId12>0</AbilityId12>
+      <AbilityId13>0</AbilityId13>
+      <AbilityId14>0</AbilityId14>
+      <AbilityId15>0</AbilityId15>
+      <AbilityId16>0</AbilityId16>
+      <ReactionSupportMovementId1>0</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>0</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>0</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>0</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>0</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
+    </JobCommand>
+  </Entries>
+</JobCommandTable>
