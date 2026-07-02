@@ -1,9 +1,9 @@
 {
   "ModId": "fftivc.gameplay.meliadouldragoon",
   "ModName": "Divine Dragoon Meliadoul",
-  "ModAuthor": "Zoadiark",
+  "ModAuthor": "Zodiark",
   "ModVersion": "0.1.0",
-  "ModDescription": "Readapts Meliadoul\u0027s skillset from \u0022The War of the Lions\u0022 mod \u0022Tides of Fate.\u0022",
+  "ModDescription": "Meliadoul Tengille, devout dragoon sworn to the Father and fights as a member of the clergy. The divine dragoon\u0027s job command Templar Arts enables puissant polearm techniques while also capable of casting divine magicks.",
   "ModDll": "",
   "ModIcon": "preview.png",
   "ModR2RManagedDll32": "",
@@ -33,6 +33,37 @@
       "RepositoryName": "Meliadoul-Divine-Dragoon",
       "UseReleaseTag": true,
       "AssetFileName": "fftivc.gameplay.meliadouldragoon.zip"
+    },
+    "GitHubDependencies": {
+      "IdToConfigMap": {
+        "fftivc.utility.modloader": {
+          "Config": {
+            "UserName": "Nenkai",
+            "RepositoryName": "fftivc.utility.modloader",
+            "UseReleaseTag": true,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "fftivc.utility.modloader.ReleaseMetadata.json"
+        },
+        "Reloaded.Memory.SigScan.ReloadedII": {
+          "Config": {
+            "UserName": "Reloaded-Project",
+            "RepositoryName": "Reloaded.Memory.SigScan",
+            "UseReleaseTag": false,
+            "AssetFileName": "Mod.zip"
+          },
+          "ReleaseMetadataName": "Reloaded.Memory.SigScan.ReloadedII.ReleaseMetadata.json"
+        },
+        "reloaded.sharedlib.hooks": {
+          "Config": {
+            "UserName": "Sewer56",
+            "RepositoryName": "Reloaded.SharedLib.Hooks.ReloadedII",
+            "UseReleaseTag": true,
+            "AssetFileName": "reloaded.sharedlib.hooks.zip"
+          },
+          "ReleaseMetadataName": "Sewer56.Update.ReleaseMetadata.json"
+        }
+      }
     }
   },
   "IsUniversalMod": false,
