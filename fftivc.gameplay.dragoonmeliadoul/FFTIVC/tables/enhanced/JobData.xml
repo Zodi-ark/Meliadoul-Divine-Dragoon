@@ -62,7 +62,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <InnateAbilityId2>0</InnateAbilityId2>
       <InnateAbilityId3>484</InnateAbilityId3>
       <InnateAbilityId4>473</InnateAbilityId4>
-      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Armor, Helmet, Shield, Polearm, Unarmed</EquippableItems>
+      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Armor, HairAdornment, Helmet, Shield, Polearm, Unarmed</EquippableItems>
       <HPGrowth>10</HPGrowth>
       <HPMultiplier>125</HPMultiplier>
       <MPGrowth>15</MPGrowth>
