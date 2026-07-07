@@ -28,8 +28,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <JobCommandId>67</JobCommandId>
 	  <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
-      <InnateAbilityId3>473</InnateAbilityId3>
-      <InnateAbilityId4>478</InnateAbilityId4>
+      <InnateAbilityId3>0</InnateAbilityId3>
+      <InnateAbilityId4>482</InnateAbilityId4>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Armor, HairAdornment, Helmet, Shield, Polearm, Unarmed</EquippableItems>
       <HPGrowth>10</HPGrowth>
       <HPMultiplier>125</HPMultiplier>
@@ -60,8 +60,8 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <JobCommandId>66</JobCommandId>
       <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
-      <InnateAbilityId3>484</InnateAbilityId3>
-      <InnateAbilityId4>473</InnateAbilityId4>
+      <InnateAbilityId3>482</InnateAbilityId3>
+      <InnateAbilityId4>484</InnateAbilityId4>
       <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Armor, Helmet, Shield, Polearm, Unarmed</EquippableItems>
       <HPGrowth>10</HPGrowth>
       <HPMultiplier>125</HPMultiplier>

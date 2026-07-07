@@ -54,6 +54,30 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <Flags>DisplayAbilityName</Flags>
       <AbilityType>Normal</AbilityType>
       <AIBehaviorFlags>TargetEnemies, HP, AddStatus, AffectedByFaith, CheckCT_Target, StopAtObstacle, PhysicalAttack, UsableByAI</AIBehaviorFlags>
-    </Ability>
+	</Ability>
+	<Ability>
+      <Id>216</Id> <!-- Meltdown / メルトン / Fusion / Schmelze -->
+      <JPCost>9999</JPCost>
+      <ChanceToLearn>14</ChanceToLearn>
+      <Flags>LearnOnHit, DisplayAbilityName, DontLearnWithJP</Flags>
+      <AbilityType>Normal</AbilityType>
+      <AIBehaviorFlags>TargetEnemies, HP, Silence, AffectedByFaith, CheckCT_Target, MagicalAttack, UsableByAI</AIBehaviorFlags>
+	</Ability>
+	<Ability>
+      <Id>217</Id> <!-- Tornado / トルネド / Tornade / Tornado -->
+      <JPCost>9999</JPCost>
+      <ChanceToLearn>21</ChanceToLearn>
+      <Flags>LearnOnHit, DisplayAbilityName, DontLearnWithJP</Flags>
+      <AbilityType>Normal</AbilityType>
+      <AIBehaviorFlags>TargetEnemies, HP, Silence, AffectedByFaith, CheckCT_Target, MagicalAttack, UsableByAI</AIBehaviorFlags>
+	</Ability>
+	<Ability>
+      <Id>218</Id> <!-- Quake / クエイク / Séisme / Beben -->
+      <JPCost>9999</JPCost>
+      <ChanceToLearn>7</ChanceToLearn>
+      <Flags>LearnOnHit, DisplayAbilityName, DontLearnWithJP</Flags>
+      <AbilityType>Normal</AbilityType>
+      <AIBehaviorFlags>TargetEnemies, HP, Silence, AffectedByFaith, CheckCT_Target, MagicalAttack, UsableByAI</AIBehaviorFlags>
+	</Ability>
   </Entries>
 </AbilityTable>

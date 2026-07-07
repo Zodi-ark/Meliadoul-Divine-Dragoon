@@ -81,7 +81,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
     </JobCommand>
     <JobCommand>
-      <Id>66</Id> <!-- Unyielding Blade / Templar Arts -->
+      <Id>66</Id> <!-- Unyielding Blade / Templar Arts (Non-player) -->
       <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
       <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
       <AbilityId1>204</AbilityId1>
@@ -101,14 +101,14 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AbilityId15>0</AbilityId15>
       <AbilityId16>0</AbilityId16>
       <ReactionSupportMovementId1>447</ReactionSupportMovementId1>
-      <ReactionSupportMovementId2>0</ReactionSupportMovementId2>
-      <ReactionSupportMovementId3>463</ReactionSupportMovementId3>
-      <ReactionSupportMovementId4>0</ReactionSupportMovementId4>
-      <ReactionSupportMovementId5>478</ReactionSupportMovementId5>
-      <ReactionSupportMovementId6>489</ReactionSupportMovementId6>
+      <ReactionSupportMovementId2>463</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>489</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>0</ReactionSupportMovementId5>
+      <ReactionSupportMovementId6>0</ReactionSupportMovementId6>
     </JobCommand>
     <JobCommand>
-      <Id>67</Id> <!-- Unyielding Blade / Templar Arts -->
+      <Id>67</Id> <!-- Unyielding Blade / Templar Arts (Player) -->
       <ExtendAbilityIdFlagBits>0</ExtendAbilityIdFlagBits>
       <ExtendReactionSupportMovementIdFlagBits>ExtendRSMId6, ExtendRSMId5, ExtendRSMId4, ExtendRSMId3, ExtendRSMId2, ExtendRSMId1</ExtendReactionSupportMovementIdFlagBits>
       <AbilityId1>204</AbilityId1>
@@ -116,9 +116,9 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AbilityId3>108</AbilityId3>
       <AbilityId4>115</AbilityId4>
       <AbilityId5>229</AbilityId5>
-      <AbilityId6>0</AbilityId6>
-      <AbilityId7>0</AbilityId7>
-      <AbilityId8>0</AbilityId8>
+      <AbilityId6>217</AbilityId6>
+      <AbilityId7>216</AbilityId7>
+      <AbilityId8>218</AbilityId8>
       <AbilityId9>0</AbilityId9>
       <AbilityId10>0</AbilityId10>
       <AbilityId11>0</AbilityId11>
@@ -127,11 +127,11 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <AbilityId14>0</AbilityId14>
       <AbilityId15>0</AbilityId15>
       <AbilityId16>0</AbilityId16>
-      <ReactionSupportMovementId1>0</ReactionSupportMovementId1>
-      <ReactionSupportMovementId2>436</ReactionSupportMovementId2>
-      <ReactionSupportMovementId3>463</ReactionSupportMovementId3>
-      <ReactionSupportMovementId4>484</ReactionSupportMovementId4>
-      <ReactionSupportMovementId5>478</ReactionSupportMovementId5>
+      <ReactionSupportMovementId1>436</ReactionSupportMovementId1>
+      <ReactionSupportMovementId2>460</ReactionSupportMovementId2>
+      <ReactionSupportMovementId3>478</ReactionSupportMovementId3>
+      <ReactionSupportMovementId4>479</ReactionSupportMovementId4>
+      <ReactionSupportMovementId5>463</ReactionSupportMovementId5>
       <ReactionSupportMovementId6>486</ReactionSupportMovementId6>
     </JobCommand>
     <JobCommand>
